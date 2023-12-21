@@ -1,0 +1,222 @@
+[
+    {
+        "year": 2019,
+        "country": "United States",
+        "airports": [
+            {
+                "iata_code": "SEA",
+                "icao_code": "KSEA",
+                "total_passengers": "51829239"
+            },
+            {
+                "iata_code": "LAS",
+                "icao_code": "KLAS",
+                "total_passengers": "51691066"
+            },
+            {
+                "iata_code": "MCO",
+                "icao_code": "KMCO",
+                "total_passengers": "50613072"
+            },
+            {
+                "iata_code": "CLT",
+                "icao_code": "KCLT",
+                "total_passengers": "50168783"
+            },
+            {
+                "iata_code": "EWR",
+                "icao_code": "KEWR",
+                "total_passengers": "46336452"
+            },
+            {
+                "iata_code": "PHX",
+                "icao_code": "KPHX",
+                "total_passengers": "46287790"
+            },
+            {
+                "iata_code": "MIA",
+                "icao_code": "KMIA",
+                "total_passengers": "45924466"
+            },
+            {
+                "iata_code": "IAH",
+                "icao_code": "KIAH",
+                "total_passengers": "44990399"
+            }
+        ]
+    },
+    {
+        "year": 2019,
+        "country": "Turkey",
+        "airports": [
+            {
+                "iata_code": "IST",
+                "icao_code": "LTFM",
+                "total_passengers": "52009220"
+            }
+        ]
+    },
+    {
+        "year": 2019,
+        "country": "Philippines",
+        "airports": [
+            {
+                "iata_code": "MNL",
+                "icao_code": "RPLL",
+                "total_passengers": "47898046"
+            }
+        ]
+    },
+    {
+        "year": 2019,
+        "country": "South Korea",
+        "airports": [
+            {
+                "iata_code": "ICN",
+                "icao_code": "RKSI",
+                "total_passengers": "71204153"
+            }
+        ]
+    },
+    {
+        "year": 2019,
+        "country": "Australia",
+        "airports": [
+            {
+                "iata_code": "SYD",
+                "icao_code": "YSSY",
+                "total_passengers": "44446838"
+            }
+        ]
+    },
+    {
+        "year": 2019,
+        "country": "Japan",
+        "airports": [
+            {
+                "iata_code": "NRT",
+                "icao_code": "RJAA",
+                "total_passengers": "44340847"
+            }
+        ]
+    },
+    {
+        "year": 2019,
+        "country": "Germany",
+        "airports": [
+            {
+                "iata_code": "FRA",
+                "icao_code": "EDDF",
+                "total_passengers": "70556072"
+            }
+        ]
+    },
+    {
+        "year": 2019,
+        "country": "United Arab Emirates",
+        "airports": [
+            {
+                "iata_code": "DXB",
+                "icao_code": "OMDB",
+                "total_passengers": "86396757"
+            }
+        ]
+    },
+    {
+        "year": 2019,
+        "country": "China",
+        "airports": [
+            {
+                "iata_code": "SZX",
+                "icao_code": "ZGSZ",
+                "total_passengers": "52931925"
+            },
+            {
+                "iata_code": "KMG",
+                "icao_code": "ZPPP",
+                "total_passengers": "48076238"
+            },
+            {
+                "iata_code": "XIY",
+                "icao_code": "ZLXY",
+                "total_passengers": "47220547"
+            },
+            {
+                "iata_code": "SHA",
+                "icao_code": "ZSSS",
+                "total_passengers": "45637882"
+            },
+            {
+                "iata_code": "CKG",
+                "icao_code": "ZUCK",
+                "total_passengers": "44786722"
+            }
+        ]
+    },
+    {
+        "year": 2019,
+        "country": "Spain",
+        "airports": [
+            {
+                "iata_code": "MAD",
+                "icao_code": "LEMD",
+                "total_passengers": "61707469"
+            }
+        ]
+    },
+    {
+        "year": 2019,
+        "country": "Singapore",
+        "airports": [
+            {
+                "iata_code": "SIN",
+                "icao_code": "WSSS",
+                "total_passengers": "68283000"
+            }
+        ]
+    },
+    {
+        "year": 2019,
+        "country": "Russia",
+        "airports": [
+            {
+                "iata_code": "SVO",
+                "icao_code": "UUEE",
+                "total_passengers": "49932752"
+            }
+        ]
+    },
+    {
+        "year": 2019,
+        "country": "Taiwan",
+        "airports": [
+            {
+                "iata_code": "TPE",
+                "icao_code": "RCTP",
+                "total_passengers": "48689372"
+            }
+        ]
+    },
+    {
+        "year": 2019,
+        "country": "India",
+        "airports": [
+            {
+                "iata_code": "BOM",
+                "icao_code": "VABB",
+                "total_passengers": "47055740"
+            }
+        ]
+    },
+    {
+        "year": 2019,
+        "country": "United Kingdom",
+        "airports": [
+            {
+                "iata_code": "LHR",
+                "icao_code": "EGLL",
+                "total_passengers": "80888305"
+            }
+        ]
+    }
+]

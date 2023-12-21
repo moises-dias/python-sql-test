@@ -1,0 +1,206 @@
+[
+    {
+        "year": 2019,
+        "country": "United States",
+        "airports": [
+            {
+                "iata_code": "ATL",
+                "icao_code": "KATL",
+                "total_passengers": "110531300"
+            },
+            {
+                "iata_code": "LAX",
+                "icao_code": "KLAX",
+                "total_passengers": "88068013"
+            },
+            {
+                "iata_code": "ORD",
+                "icao_code": "KORD",
+                "total_passengers": "84372618"
+            },
+            {
+                "iata_code": "DFW",
+                "icao_code": "KDFW",
+                "total_passengers": "75066956"
+            },
+            {
+                "iata_code": "DEN",
+                "icao_code": "KDEN",
+                "total_passengers": "69015703"
+            },
+            {
+                "iata_code": "JFK",
+                "icao_code": "KJFK",
+                "total_passengers": "62551072"
+            },
+            {
+                "iata_code": "SFO",
+                "icao_code": "KSFO",
+                "total_passengers": "57418574"
+            }
+        ]
+    },
+    {
+        "year": 2019,
+        "country": "Mexico",
+        "airports": [
+            {
+                "iata_code": "MEX",
+                "icao_code": "MMMX",
+                "total_passengers": "50308049"
+            }
+        ]
+    },
+    {
+        "year": 2019,
+        "country": "Indonesia",
+        "airports": [
+            {
+                "iata_code": "CGK",
+                "icao_code": "WIII",
+                "total_passengers": "54496625"
+            }
+        ]
+    },
+    {
+        "year": 2019,
+        "country": "France",
+        "airports": [
+            {
+                "iata_code": "CDG",
+                "icao_code": "LFPG",
+                "total_passengers": "76150009"
+            }
+        ]
+    },
+    {
+        "year": 2019,
+        "country": "Netherlands",
+        "airports": [
+            {
+                "iata_code": "AMS",
+                "icao_code": "EHAM",
+                "total_passengers": "71706999"
+            }
+        ]
+    },
+    {
+        "year": 2019,
+        "country": "Japan",
+        "airports": [
+            {
+                "iata_code": "HND",
+                "icao_code": "RJTT",
+                "total_passengers": "85505054"
+            }
+        ]
+    },
+    {
+        "year": 2019,
+        "country": "Germany",
+        "airports": [
+            {
+                "iata_code": "MUC",
+                "icao_code": "EDDM",
+                "total_passengers": "47941348"
+            }
+        ]
+    },
+    {
+        "year": 2019,
+        "country": "Thailand",
+        "airports": [
+            {
+                "iata_code": "BKK",
+                "icao_code": "VTBS",
+                "total_passengers": "65421844"
+            }
+        ]
+    },
+    {
+        "year": 2019,
+        "country": "China",
+        "airports": [
+            {
+                "iata_code": "PEK",
+                "icao_code": "ZBAA",
+                "total_passengers": "100011438"
+            },
+            {
+                "iata_code": "PVG",
+                "icao_code": "ZSPD",
+                "total_passengers": "76153455"
+            },
+            {
+                "iata_code": "CAN",
+                "icao_code": "ZGGG",
+                "total_passengers": "73378475"
+            },
+            {
+                "iata_code": "HKG",
+                "icao_code": "VHHH",
+                "total_passengers": "71415245"
+            },
+            {
+                "iata_code": "CTU",
+                "icao_code": "ZUUU",
+                "total_passengers": "55858552"
+            }
+        ]
+    },
+    {
+        "year": 2019,
+        "country": "Spain",
+        "airports": [
+            {
+                "iata_code": "BCN",
+                "icao_code": "LEBL",
+                "total_passengers": "52663623"
+            }
+        ]
+    },
+    {
+        "year": 2019,
+        "country": "Canada",
+        "airports": [
+            {
+                "iata_code": "YYZ",
+                "icao_code": "CYYZ",
+                "total_passengers": "50496804"
+            }
+        ]
+    },
+    {
+        "year": 2019,
+        "country": "Malaysia",
+        "airports": [
+            {
+                "iata_code": "KUL",
+                "icao_code": "WMKK",
+                "total_passengers": "62336469"
+            }
+        ]
+    },
+    {
+        "year": 2019,
+        "country": "India",
+        "airports": [
+            {
+                "iata_code": "DEL",
+                "icao_code": "VIDP",
+                "total_passengers": "68490731"
+            }
+        ]
+    },
+    {
+        "year": 2019,
+        "country": "United Kingdom",
+        "airports": [
+            {
+                "iata_code": "LGW",
+                "icao_code": "EGKK",
+                "total_passengers": "46576473"
+            }
+        ]
+    }
+]
