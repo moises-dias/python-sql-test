@@ -5,6 +5,8 @@
 This README provides an overview of the solution developed using Python to retrieve data from a json, store it in a SQLITE3 database, query and print the total passengers per country.
 
 
+To run the solution, execute the Python file `challenge_solution.py`. This script will read the `data.json` file in the repository and display the total number of passengers per country. You can modify the argument passed to the main function and include multiple JSON files. For testing this functionality, I have provided `data_part_1.json` and `data_part_2.json`, each containing half of the data from `data.json`.
+
 
 ### Table of Contents
 1. [Task Description](#task-description)
@@ -41,6 +43,8 @@ With this structure, the tables are in the 3rd normal form (no repeating values 
 ### Implementation Details
 
 The code is very straightforward, given the required tasks (loading a JSON, creating a database, storing the data, and printing a result). However, I would like to highlight some decisions I made while creating the code:
+
+- The code can handle multiple JSON files ensuring that duplicate entries are not inserted. This scenario is useful when the tables already exist and contain data, and there is a need to query the dimensions to retrieve their primary keys for inserting data into the fact table.
 
 - I chose to create a function to check the JSON structure, to assert that it has all the necessary fields, otherwise, an unstructured JSON could create inconsistencies in the tables or errors during the execution.
 
