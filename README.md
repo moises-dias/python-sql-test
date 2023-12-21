@@ -8,9 +8,9 @@ This README provides an overview of the solution developed using Python to retri
 
 ### Table of Contents
 1. [Task Description](#task-description)
-2. [Implementation Details](#implementation-details)
-3. [Functions](#functions)
-4. [Table Modeling](#table-modeling)
+2. [Table Modeling](#table-modeling)
+3. [Implementation Details](#implementation-details)
+4. [Functions](#functions)
 5. [Possible Future Enhancements](#possible-future-enhancements)
 
 ### Task Description
@@ -27,6 +27,17 @@ Meaning of the fields in the attached file (data.json):
 - icao_code: ICAO code of the airport
 - total passengers: number of passengers that took a flight on the specified dimensions
 
+### Table Modeling
+![Tables structure](tables.png)
+
+The JSON data is structured with the following hierarchy:
+
+- Each record contains a year, a country, and a list of airports.
+- Each airport has an IATA code, an ICAO code, and a total number of passengers.
+
+I used the star schema to model the data into the four tables above: three dimensions and one fact table.
+With this structure, the tables are in the 3rd normal form (no repeating values or groups, no partial dependencies on tables with composite keys, and no transitive dependencies).
+
 ### Implementation Details
 
 The code is very straightforward, given the required tasks (loading a JSON, creating a database, storing the data, and printing a result). However, I would like to highlight some decisions I made while creating the code:
@@ -34,7 +45,6 @@ The code is very straightforward, given the required tasks (loading a JSON, crea
 - I chose to create a function to check the JSON structure, to assert that it has all the necessary fields, otherwise, an unstructured JSON could create inconsistencies in the tables or errors during the execution.
 
 - The code is organized to minimize the operations involving the database. For each JSON file, there will be four batch inserts (one for each table) and three selects (to retrieve the PK of the inserted values on the dimensions and use them in the insert of the fact table).
-
 
 ### Functions
 
@@ -73,18 +83,6 @@ The code is very straightforward, given the required tasks (loading a JSON, crea
 9. **main**
 
     Create the tables and insert one or more JSON files into them.
-
-### Table Modeling
-![Tables structure](tables.png)
-
-The JSON data is structured with the following hierarchy:
-
-- Each record contains a year, a country, and a list of airports.
-- Each airport has an IATA code, an ICAO code, and a total number of passengers.
-
-I used the star schema to model the data into the four tables above: three dimensions and one fact table.
-With this structure, the tables are in the 3rd normal form (no repeating values or groups, no partial dependencies on tables with composite keys, and no transitive dependencies).
-
 
 ### Possible Future Enhancements
 
